@@ -1,5 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
 project(ctti)
-cmake_minimum_required(VERSION 2.8)
 
 option(CTTI_BUILD_TESTS "Build ctti feature tests" OFF)
 option(CTTI_BUILD_EXAMPLES "Build ctti examples" OFF)

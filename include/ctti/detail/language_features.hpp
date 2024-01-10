@@ -11,7 +11,7 @@
 #undef CTTI_HAS_CONSTEXPR_PRETTY_FUNCTION
 #endif // GCC 4.x
 
-#ifdef __clang__
+#if defined(__clang__) || defined(__GNUC__)
 #define CTTI_HAS_ENUM_AWARE_PRETTY_FUNCTION
 #endif // __clang__
 

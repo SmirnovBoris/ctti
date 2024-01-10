@@ -43,7 +43,7 @@ private:
     template<std::size_t Index, typename T, typename std::enable_if<
         !Symbol<Index>::template is_member_of<T>()
     >::type>
-    void assign_member(const T& object)
+    void assign_member(const T& )
     {}
 
     template<typename T, std::size_t... Index>

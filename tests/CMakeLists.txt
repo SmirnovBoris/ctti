@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(ctti)
 add_subdirectory(static)
 
 add_executable(ctti-test

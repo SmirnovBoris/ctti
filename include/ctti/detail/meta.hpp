@@ -4,6 +4,7 @@
 #include <type_traits>
 #include <cstddef>
 #include <array>
+#include <cstdint>
 
 namespace ctti
 {

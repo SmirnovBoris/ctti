@@ -5,8 +5,6 @@ using namespace ctti::detail;
 
 constexpr int array_a[] = {1, 2, 3, 4};
 constexpr int array_b[] = {1, 2, 3, 42};
-constexpr int array_c[] = {1, 2};
-constexpr int array_d[] = {1};
 constexpr const char* hello_world = "hello world";
 constexpr const char* world = "world";
 
